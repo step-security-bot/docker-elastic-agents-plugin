@@ -9,3 +9,18 @@ updates:
   directory: "/"
   schedule:
     interval: monthly
+
+- package-ecosystem: docker
+  directory: /
+  schedule:
+    interval: daily
+
+- package-ecosystem: docker
+  directory: /contrib/scripts/bootstrap-via-installer
+  schedule:
+    interval: daily
+
+- package-ecosystem: docker
+  directory: /contrib/scripts/bootstrap-without-installed-agent
+  schedule:
+    interval: daily
